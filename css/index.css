@@ -11,9 +11,13 @@ body {
 }
 header {
   display:  flex;
+  position: fixed;
+  width: 1220px;
   align-items: center;
   height: 69px;
   border-bottom: 1px solid seashell;
+  background-color: black;
+  z-index: 5;
 }
 
 .logo {
@@ -39,6 +43,8 @@ header {
 
 .mission {
   display: inline-flex;
+  position: relative;
+  top: 75px;
   justify-content: center;
   height: 700px;
   width: 1200px;
@@ -56,7 +62,6 @@ header {
   position: absolute;
   left: 0; top 65%; right: 0; bottom: 35%;
   background-color: black;
-  z-index: 5;
 }
 
 .tea .teaimg {
@@ -130,4 +135,13 @@ header {
   padding-top: 15px;
   opacity: 1;
   background-color: black;
+}
+.footer {
+  height: 200px
+  left: 20px;
+}
+
+.footer p {
+  position: absolute;
+  text-align: left;
 }
