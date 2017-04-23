@@ -77,3 +77,57 @@ header {
 .tea .teaimg h4 {
   padding-top: 10px;
 }
+
+.location {
+  display: inline-flex;
+  justify-content: center;
+
+}
+
+.location .locimg {
+  /*make relative but don't adjust position -
+  do so in order to allow text of .mtext to
+  'float' on top*/
+  position: relative;
+  height: 500px;
+  width: 1200px;
+}
+
+.location .locimg .loctext {
+  /* Make absolute and position in 'center' */
+  position: absolute;
+  left: 0; top 25%; right: 0; bottom: 75%;
+  z-index: 5;
+}
+
+.location .locimg .locations {
+  display: inline-flex;
+  z-index: 5;
+}
+
+.location .locimg .locations .loc1 {
+  /* Make absolute and position in 'center' of .mimg */
+  position: absolute;
+  left: 55px; top: 35%;
+  width: 300px;
+  padding-top: 15px;
+  opacity: 1;
+  background-color: black;
+}
+
+.location .locimg .locations .loc2 {
+  position: absolute;
+  left: 430px; top: 35%;
+  width: 300px;
+  padding-top: 15px;
+  opacity: 1;
+  background-color: black;
+}
+.location .locimg .locations .loc3 {
+  position: absolute;
+  right: 55px; top: 35%;
+  width: 300px;
+  padding-top: 15px;
+  opacity: 1;
+  background-color: black;
+}
