@@ -58,3 +58,22 @@ header {
   background-color: black;
   z-index: 5;
 }
+
+.tea .teaimg {
+  display: inline-flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.tea .teaimg2 {
+  display: inline-flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tea .teaimg h4 {
+  padding-top: 10px;
+}
